@@ -1,4 +1,5 @@
 import React from 'react';
+import Buttons from '../components/Buttons';
 import DynamicText from '../components/DynamicText';
 import Mouse from '../components/Mouse';
 import Navigation from '../components/Navigation';
@@ -10,16 +11,16 @@ const Home = () => {
             {/* 34min */}
             <Mouse/>
             <div className="home">
-
             <Navigation/>  
             <SocialNetwork/>  
             <div className="home-main">
                 <div className="main-content">
                     <h1>FS AGENCY</h1>
-                    <DynamicText/>
+                   <h2><DynamicText/></h2> 
                 </div>
             </div>       
             </div>
+            <Buttons right={'/projet-1'} />
         </div>
     );
 };
