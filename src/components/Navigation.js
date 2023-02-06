@@ -16,28 +16,28 @@ const Navigation = () => {
                 <ul className='nav-projects'>
 
                     <NavLink
-                    to="/"
+                    to="/projet-1"
                     className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
                     >
                     <li>Projet-1</li>
                     </NavLink>   
 
                     <NavLink
-                    to="/"
+                    to="/projet-2"
                     className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
                     >
                     <li>Projet-2</li>
                     </NavLink>   
 
                     <NavLink
-                    to="/"
+                    to="/projet-3"
                     className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
                     >
                     <li>Projet-3</li>
                     </NavLink>   
 
                     <NavLink
-                    to="/"
+                    to="/projet-4"
                     className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
                      >
                     <li>Projet-4</li>
