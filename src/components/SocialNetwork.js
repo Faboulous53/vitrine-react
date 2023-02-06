@@ -10,7 +10,7 @@ const SocialNetwork = () => {
             });
 
             link.addEventListener("mouseleave", () => {
-
+                link.style.transform = ``
             })
         });
 
