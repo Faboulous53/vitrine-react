@@ -1,10 +1,20 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
+import Logo from '../components/Logo';
+import Mouse from '../components/Mouse';
+import Navigation from '../components/Navigation';
 
 const Contact = () => {
     return (
-        <div>
-            <h2>CONTACT</h2>
-        </div>
+        <main>
+            <Mouse/>
+            <div className="contact">
+                <Navigation/>
+                <Logo/>
+                <ContactForm/>
+                {/* 2h04 */}
+            </div>
+        </main>
     );
 };
 
